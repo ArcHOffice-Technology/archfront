@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 300px;
+}
+button{
+    margin: 10px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+}
+.red{ background-color: red;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.black{background-color: black;color: white;}
